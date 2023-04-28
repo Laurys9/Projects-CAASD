@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor-padre{
+    margin: auto;
+    width: 960px;
+    height: 500px;
+    background-color:antiquewhite;
+}
+.hijo{
+    width: 250px;
+    height: 790px;
+    background-color: blue;
+    float:left;
+}
+.hija-2{
+    width: 960px;
+    height: 40px;
+    background-color: red;
+}
+.hijo-3{
+    margin-top: 300px;
+    width: 960px;
+    height: 550px;
+    background-color: blueviolet;
+}
+
+

@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: auto;
+    font-family:Arial, Helvetica, sans-serif;
+     /* Elimina todos los font family */
+}
+
+.father-container{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+.vertical-menu{
+    width: 28%;
+    height:calc(100vh);
+    background-image: url(imagenes/blue-background.jpg);
+    background-size: cover;
+    margin-right: 25px;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+.img-border{
+    width: 60%;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.logo{
+    margin-left: 45px;
+    width: 200px;
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.menu li{
+    list-style: none;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-bottom: 1px solid #205CD3;
+    list-style-type: disclosure-closed;
+}
+.menu ul{
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;  
+    width: 100%;  
+}
+
+.header-inicio{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(196, 192, 192);
+    margin-left: 60px;
+}
+
+.header-title{
+    color: #04215B;
+    font-size: medium;
+}
+
+.img-user{
+    width: 25px;
+    /* Elimina los height */
+    margin: 10px 10px 0px 10px;
+}
+
+.user-name{
+    display: flex;
+    align-items: center;
+   
+}
+.user-name span{
+    color: #ABB2B9;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-welcome{
+    display: flex;
+    justify-content:flex-end;
+    width: 300px;
+    margin: 50px 0px 25px 90px;
+    
+}
+
+.contenedor-2{
+    margin: 60px 170px 0px 0px;
+}
+
+h1,h5,span{
+    margin: 0;
+    font-weight: 200;
+  
+}
+
+.title{
+    margin-bottom: 5px;
+}
+
+.contenedor-2 h5{
+    color: #04215B; 
+    font-size: large;
+
+}
+.contenedor-2 h1{
+    border-bottom: solid 1px #ff0000;
+    font-size: xxx-large;
+    color: #04215B;
+}
+.contenedor-2 span{
+    font-size: medium;
+}
+
+.atajos{
+    border-bottom: solid 1px rgb(196, 192, 192);
+    width: 80%;
+    margin: 0px 0px 5px 60px;
+}
+.atajos h3{
+    color:#04215B;
+    font-size: medium;
+    /* cambia todos los margin a esta manera */
+    margin: 30px 0px 10px 0px; 
+  
+}
+
+.button-almacen{
+    background: #86c74e;
+    color:#FFFFFF;
+    border-radius: 8px;
+    text-align:left;
+    width:300px;
+    font-size:small;
+    font-family:Arial, Helvetica, sans-serif;
+    border:none;
+    margin: 10px 0px 10px 60px
+}
+
+.fa-trash-can{
+    display: flex;
+    justify-content:right;
+    margin: 10px 0px 35px 0px
+}
+
+.button-almacen span{
+    font-size: x-large;
+    line-height: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+

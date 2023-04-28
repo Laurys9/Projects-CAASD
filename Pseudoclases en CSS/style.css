@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --fondoPimario: #FCF7F8;
+    --azul: #3860EC;
+    --colorOscuro: black;
+}
+
+body{
+    background: var(--fondoPimario);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+ul{
+    margin: 0;
+}
+
+.contenedor{
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--colorOscuro);
+    margin-bottom: 20px;
+}
+
+.grupo{
+    padding: 60px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.007);
+}
+
+.label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grupo div p,
+.grupo div div,
+.grupo div span,
+.grupo ul li{
+    background: #dbdbdb;
+    padding: 10px;
+}
+
+/* ? ------------- PSEUDO-CLASES ------------ */
+.enlace:active{
+    background: #000;
+}
+
+.enlace:link{
+    color: blue;
+}
+
+.enlace:hover{
+    color: orange;
+}
+
+/* ? ------------- PARRAFOS ------------ */
+.parrafos p:first-child{
+    background: var(--azul);
+    color: #fff;
+}
+
+.parrafos p:last-child{
+    background: var(--colorOscuro);
+    color: #fff;
+}
+
+/* ? ------------- ELEMENTOS ------------ */
+.elementos div:first-of-type{
+    background: var(--azul);
+    color: #fff;
+}
+
+.elementos div:last-of-type{
+    background: var(--colorOscuro);
+    color: #fff;
+}
+
+/* ? ------------- Lista ------------ */
+.lista :nth-child(2){
+    background: var(--azul);
+    color: #fff;
+}
+
+.lista :nth-last-child(3){
+    background: var(--colorOscuro);
+    color: #fff;
+}
+
+/* ? ------------- Lista 2 ------------ */
+.lista2 p:nth-of-type(2){
+    background: var(--azul);
+    color: #fff;
+}
+
+.lista2 div:nth-last-of-type(1){
+    background: var(--colorOscuro);
+    color: #fff;
+}
+
+/* ? ------------- Lista 3 ------------ */
+.lista3 p:only-child{
+    background: var(--azul);
+    color: #fff;
+}
+
+
+/* ? ------------- Lista 4 ------------ */
+.lista4 p:only-of-type{
+    background: var(--azul);
+    color: #fff;
+}

@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+}
+
+.heather-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom:1px solid #AEB6BF;
+}
+
+.logo-caasd-heather{
+    padding-bottom: 8px;
+    transition: 1s;
+}
+
+.img-logo{
+    vertical-align: middle;
+    border-style: none;
+    margin: 0px 0px 0px 50px;
+    width: 175px;
+    height: 75px;
+}
+
+.letter-logo{
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    float: right;
+}
+
+.letter-1,
+.letter-2,
+.letter-3{
+    color:#003875;
+    margin: 0px 0px 0px 15px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heather-icons{
+    width:20%; 
+    display: flex; 
+    flex-direction: column;
+    margin: 30px 80px 0px 0px;
+}
+
+.escudo-flex-heather{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 100%;
+}
+
+.img-escudo{
+    display: flex;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.letter-RD{
+   display: flex;
+   flex-direction: column;
+   margin: 20px 60px 0px 5px;
+}
+
+.buscador{
+    margin: 7px 0px 10px 0px;
+}
+
+.social-search{
+    border-radius: 170px;
+    width: 92%;
+    padding:7px;
+    border: 2px solid #04215B;
+
+}
+
+.span{
+    font-size:xx-small;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav-header-menu{
+    margin: 15px 0px 15px 5px;
+    color: #003875;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.menu-icons{
+    margin: 0 0 0 20px;
+}
+
+.horizontal-line{
+    display: flex;
+    border-bottom: 1px solid #AEB6BF  ;
+}
+
+.nav-menu-principal{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul > li{
+    float: left;
+}
+
+ul li a{
+    background-color: #ffffff;
+    color: #04215B;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin: 0px 55px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-transparencia{
+    background-color: #085ab3;
+    border-radius: 5px;
+    padding: 7px;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    margin: 4px;
+}
+
+.Horizontal-bar{
+    display: flex;
+    margin: 30px 0px 0px 90px;
+    background:#eeeeee91;
+    border: 1px solid;
+    color: #77777770 ;
+    height: 30px;
+    width: 80%;
+    border: none;
+}
+
+.Horizontal-bar h4{
+    margin: 7px 0 0 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+ 
+.carta-compromiso-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text-container{
+    display:block;
+    width: 45%;
+    margin: 100px 0px 50px 100px;
+}
+
+.img-compromiso{
+    width: 450px;
+    height: 270px;
+    margin: 130px 150px 0px 0px ;
+    
+}
+
+.button-container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.compromiso-boton{
+    background-color:#eeeeee;
+    border:none;
+    color: #003875;
+    width: 255px;
+    margin: 0px 0px 90px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 15px;
+    text-align:right;
+}
+
+.compromiso-boton span{
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column-reverse;
+   
+}
+
+
+.Title{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 25px 0px;
+}
+
+p{
+    color: #777777;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+
+}
+
+.footer-container{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    background-color: #003875;
+    height: 265px;
+}
+
+.footer-logos{
+    display:flex;
+}
+
+.footer-text-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    
+}
+
+.footer-text-container p{
+    color:#ffffff;
+    display: flex;
+    margin: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.footer-text-container span{
+    color: #007aff;
+}
+
+.text-container-1{
+    margin: 0 100px 0 0;
+}
+
+.text-container-2{
+    margin: 0 400px 0 0;
+}
+
+.caasd-logo{
+    width: 180px;
+    height: 100px;
+    margin: 20px 0px 0px 20px;
+}
+
+.escudo-logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 0px 20px;  
+}
+
+
+
+
+
+
