@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    background: #E5E7E9 ;
+    margin: 0;
+    padding: 0;
 }
 
 :root{
@@ -22,8 +25,9 @@ body{
 .contenedor{
     max-width: 500px;
     width: 90%;
-    padding: 30px;
+    padding: 40px;
     border-radius: 20px;
+    margin: 20px;
 }
 
 .titulo{
@@ -37,7 +41,7 @@ body{
 /* ? ------------- Estilos del Formulario --------------- */
 
 .formulario .grupo{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .formulario .grupo > input{
@@ -46,7 +50,8 @@ body{
     border-radius: 3px;
     border: none;
     padding: 20px;
-    border: 1px solid
+    border: 1px solid #BDC3C7 ;
+    background: #fff;
 }
 
 .formulario .grupo > label{
@@ -86,7 +91,7 @@ body{
 
 /* ?  ------------- Pseudoclases --------------- */
 .formulario .nombre:focus{
-    border: 3px solid var(--azulPrimario);
+    border: 3px solid var(--fondoPrimario);
 }
 
 .formulario .id:disabled{
